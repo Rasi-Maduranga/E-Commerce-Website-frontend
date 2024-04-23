@@ -1,0 +1,159 @@
+body{
+    background-color: #00157c;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-position: center;
+}
+
+.img{
+    width: 37%;
+}
+
+
+/* login form box */
+.loginbox{
+    width: 390px;
+    height: 500px;
+    background: #eceff1;
+    color: rgb(7, 7, 7);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 25px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 1px;
+}
+
+/* register form box */
+.registerbox{
+    width: 390px;
+    height: 720px;
+    background: #eceff1;
+    color: rgb(7, 7, 7);
+    top: 66%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 25px 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 1px;
+}
+
+/* form heading */
+h1{
+    margin: 0px ;
+    padding: 0px 0 20px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* lable */
+.loginbox p{
+    font-size: 17px;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+/* text box */
+.loginbox input[type="text"],input[type="password"]{
+    margin: 25px 0;
+    border: none;
+    border-bottom: 1px solid rgb(161, 167, 248);
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: black;
+    font-size: 15px;
+}
+
+.loginbox input[type="number"]{
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+/* button */
+.loginbox input[type="button"]{
+    margin: 25px 0 15px 0;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="button"]:hover{
+    cursor: pointer;
+    color: rgb(3, 3, 3);
+}
+
+.loginbox a{
+    margin:0 0 20px 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.loginbox a:hover{
+    color: #d44945;
+}
+
+h5 {
+    text-align: center;
+    line-height: 1;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #eceff1;
+    padding: 3px 0;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 5px 0 0 0;
+}
+
+.divider{
+    text-align: center;
+    position: relative;
+    top: 9px;
+    padding-top: 10px;
+    margin-bottom: 19px;
+    line-height: 0;
+}
+
+.divider::after{
+    background-color: #eceff1;
+    content: "";
+    width: 100%;
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #000000;
+    position: relative;
+    top: 50%;
+    margin-top: -9px;
+    z-index: -2;
+}
+
+
+
+
+
+
+
